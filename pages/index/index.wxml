@@ -1,0 +1,6 @@
+<view>
+{{demoMessage}}
+</view>
+<button bindtap='findHide'>按钮</button>
+<view hidden = "{{boolValue}}">这是一部分被条件渲染的内容 </view>
+<view wx:if="{{length > 5}}"> 1 </view>

@@ -1,0 +1,23 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "pages" : [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/index_2/index_2"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "text"
+    },{
+      "pagePath": "pages/index_2/index_2",
+      "text": "text2"
+
+    }]
+  }
+}
